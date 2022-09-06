@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header {
+    background-color: #2980B9;
+   width: 100%;
+   position: fixed;
+   z-index: 999;
+}
+
+.header-logo img {
+    width: 143px;
+    height: auto;
+}
+.primary-menu {}
+.primary-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.primary-menu ul li {
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 15px 20px;
+    line-height: 18px;
+}
+.primary-menu ul li a:hover{
+    background-color: #3498DB;
+    color: beige;
+}
+.banner{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner h2{
+    background-color: rgba(27, 74, 226, 0.6);
+    color:beige;
+    display: inline-block;
+    border-radius: 5px;
+}
+.banner h1{
+    background-color:  rgba(136, 16, 160, 0.6);
+    color: beige;
+    display: inline-block;
+    border-radius: 5px;
+}
+.about{
+    background-color: #ECF0F1;
+    padding: 40px 0;
+}
+.about p{
+    font-size: 18px;
+}
+.service{
+    background-color: #F9F9F9;
+    padding: 50px 0;
+}
+.service-item{
+    border: 1px solid #ddd;
+    padding: 20px 0;
+}
+.service-item span{
+width: 60px;
+height: 60px;
+margin: auto;
+background-color: #3498DB;
+color: beige;
+display: block;
+font-size: 30px;
+line-height: 60px;
+border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+    margin-top: 10px;
+}
+.service-item p{}
+.blog-item img{
+    width: 100%;
+    margin-top: 5px;
+}
+.blog-item p{
+font-size: 18px;
+color: black;
+}
+.blog-notice h2{
+    border-bottom: 1px solid #ddd;
+}
+.blog-notice ul {
+    list-style-type: none;
+   
+}
+.blog-notice ul li{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.contact{
+    padding: 50px 0;
+    background-color: #fcfcfc;
+}
+iframe{
+    width: 540px;
+}
+.contact-form input[type=submit]:hover{
+background:black;
+color:white;
+}
+.footer{
+background-color: #2C3E50;
+padding: 5px 0;
+
+
+}
+.footer-left p{
+    color: blanchedalmond;
+    font-size: 18px;
+margin-bottom:0;
+   
+}
+.footer-right ul{
+list-style-type: none;
+text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+   
+}
+.footer-right ul li a{
+    display: inline-block;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.footer-right ul li a:hover{
+    color: #ddd;
+}
